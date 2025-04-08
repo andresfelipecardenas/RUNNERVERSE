@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold;
+    font-size: 20px;
+    font-family: verdana, Arial, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, arial, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#cuerpo {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#cabecera {
+    background: rgb(115, 199, 223);
+    border: 1px solid #33a2ff;
+    padding: 20px;
+    text-align: center;
+}  
+
+body {
+    background-image: url(imagenes/2262829.png)
+}
+
+.logo {
+    clip-path: circle(35%);
+    width: 300px;
+    transition: .3s;
+}
+
+.logo:hover {
+    clip-path: circle(38%);
+    scale: 1.02;
+}
+
+#menu {
+    background: #cccccc;
+    padding: 5px 15px;
+}
+
+.nav-enlace{
+    text-align: center;
+    width: 130px;
+    margin: 10px;
+    display: inline-block;
+    background: #131b38;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    -moz-borrder-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(211, 162, 162)5px 5px;
+    -webkit-box-shadow: rgb(150,150,150)5px 5px;
+    box-shadow: rgb(150,150,150)5px 5px;
+}
+
+.nav-enlace:hover {
+    background: #729bde;
+}
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+    background: #999999;
+}
+
+.articulo{
+    background: #36dfeb;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    -moz-borrder-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(150,150,150)5px 5px;
+    -webkit-box-shadow: rgb(150,150,150)5px 5px;
+    box-shadow: rgb(150,150,150)5px 5px;
+}
+
+p{
+    color: #0b0447;
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+#lateral {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #cccccc;
+}
+
+table {
+    text-shadow: #369 2px 2px 2px;
+    font-family: verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #999999;    
+}
